@@ -121,6 +121,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
 
+# Phonelocation!
+PRODUCT_COPY_FILES +=  \
+    vendor/cm/prebuilt/common/media/location/suda-phonelocation.dat:system/media/location/suda-phonelocation.dat
+
 # Theme engine
 include vendor/cm/config/themes_common.mk
 
@@ -152,6 +156,7 @@ PRODUCT_PACKAGES += \
     CMAccount \
     CyanogenSetupWizard \
     CMSettingsProvider \
+    PhoneLocationProvider \
     ExactCalculator
 
 # CM Platform Library
