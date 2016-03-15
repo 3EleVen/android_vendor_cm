@@ -166,6 +166,10 @@ PRODUCT_PACKAGES += \
     PhoneLocationProvider \
     ExactCalculator
 
+# Exchange support
+PRODUCT_PACKAGES += \
+    Exchange2
+
 # CM Platform Library
 PRODUCT_PACKAGES += \
     org.cyanogenmod.platform-res \
