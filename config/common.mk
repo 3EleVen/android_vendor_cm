@@ -165,7 +165,8 @@ PRODUCT_PACKAGES += \
     PhoneLocationProvider \
     ExactCalculator \
     LiveLockScreenService \
-    WeatherProvider
+    WeatherProvider \
+    DataUsageProvider
 
 # Exchange support
 PRODUCT_PACKAGES += \
